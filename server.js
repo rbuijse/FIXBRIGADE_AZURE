@@ -7,8 +7,8 @@ app.use(cors());
 
 // ✅ Vul deze waarden in met jouw eigen info:
 const config = {
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
+  user: 'ruurd@fixserver01.database.windows.net',
+  password: 'ruurd@fixserver01.database.windows.net',
   server: 'fixserver01.database.windows.net',
   database: 'FIXDB',
   options: {
