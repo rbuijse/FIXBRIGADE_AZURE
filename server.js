@@ -7,10 +7,10 @@ app.use(cors());
 
 // ✅ Vul deze waarden in met jouw eigen info:
 const config = {
-  user: DB_USER,
-  password: DB_PASS,
-  server: DB_HOST
-  database: DB_NAME,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  server: process.env.DB_HOST
+  database: process.env.DB_NAME,
   options: {
     encrypt: true,
     enableArithAbort: true
